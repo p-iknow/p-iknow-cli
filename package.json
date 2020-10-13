@@ -1,0 +1,22 @@
+{
+	"name": "ano-cli",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"gnd": "./index.js",
+		"today": "./today.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"preferGlobal": true,
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^5.1.0",
+		"fs-extra": "^9.0.1",
+		"moment": "^2.26.0"
+	}
+}
